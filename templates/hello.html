@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Intro to Full Stack</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <hgroup>
+        <h1>ACM Dev</h1>
+        <p>Intro to Full Stack Development</p>
+      </hgroup>
+
+      <nav>
+        <div>
+          <a href="/">Home</a>
+          <br />
+          <a href="/hello">Hello</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>Hello, {{ name }}!</h1>
+      <section>
+        <h2>Calling from our FastAPI Backend</h2>
+        <p>
+          Clicking on this button will take the result from
+          <code>/api/name</code>.
+        </p>
+
+        <button id="fetchButton" onclick="fetchData()">Click me!</button>
+
+        <span id="result"></span>
+
+        <p>
+          As we can see, the result is in JSON form. We can then use this data
+          any way we see fit.
+        </p>
+
+        <p>
+          Try to modify our <code>fetchData()</code> function to change the name
+          below!
+        </p>
+
+        <h4>Hello, <span id="name">Person</span>!</h4>
+      </section>
+    </main>
+  </body>
+</html>
