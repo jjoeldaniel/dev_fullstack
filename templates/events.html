@@ -17,6 +17,9 @@
     />
 
     <style>
+      .navstyle {
+        margin-right: 15px;
+      }
       .grid-container {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
@@ -32,7 +35,6 @@
           grid-template-columns: 1fr;
         }
       }
-            }
     </style>
   </head>
   <body>
@@ -44,11 +46,9 @@
 
       <nav>
         <div>
-          <a href="/">Home</a>
-          <br />
-          <a href="/hello">Hello</a>
-          <br />
-          <a href="/events">Events</a>
+          <a class="navstyle" href="/">Home</a>
+          <a class="navstyle" href="/hello">Hello</a>
+          <a class="navstyle" href="/events">Events</a>
         </div>
       </nav>
     </header>
@@ -59,7 +59,7 @@
         <article>
           <h4>{{event.name}}</h4>
           <p>
-            <span
+            <span class="navstyle"
               ><span class="material-symbols-outlined"> calendar_month </span>
               {{event.date}}</span
             >

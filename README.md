@@ -31,3 +31,5 @@
 [FastAPI Documentation](https://fastapi.tiangolo.com)
 
 [MDN Fetch API Documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+
+[Pico CSS](https://picocss.com/)
