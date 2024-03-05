@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="color-scheme" content="light dark" />
+    <title>__ Club Events</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+        gap: 16px; /* Adjust the gap as needed */
+
+        /* For tablets and larger screens (3 items per row) */
+        @media (min-width: 768px) {
+          grid-template-columns: repeat(3, 1fr);
+        }
+
+        /* For mobile devices (1 item per row) */
+        @media (max-width: 767px) {
+          grid-template-columns: 1fr;
+        }
+      }
+            }
+    </style>
+  </head>
+  <body>
+    <header class="container">
+      <hgroup>
+        <h1>__ Club Events</h1>
+        <p>__ Club @ CSUF | All things __!</p>
+      </hgroup>
+
+      <nav>
+        <div>
+          <a href="/">Home</a>
+          <br />
+          <a href="/hello">Hello</a>
+          <br />
+          <a href="/events">Events</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="grid-container">
+        {% for event in data %}
+        <article>
+          <h4>{{event.name}}</h4>
+          <p>
+            <span
+              ><span class="material-symbols-outlined"> calendar_month </span>
+              {{event.date}}</span
+            >
+            <span
+              ><span class="material-symbols-outlined"> map </span>
+              {{event.location}}</span
+            >
+          </p>
+
+          <p>{{event.description}}</p>
+        </article>
+        {% endfor %}
+      </div>
+    </main>
+  </body>
+</html>

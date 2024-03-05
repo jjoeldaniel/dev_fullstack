@@ -1,0 +1,46 @@
+{
+  "events": [
+    {
+      "name": "Ice Cream Social",
+      "location": "School Courtyard",
+      "date": "June 15, 2024",
+      "description": "Join us for our first club meeting of the year! Meet the officers, learn about oru upcoming events, and enjoy some delicious ice cream!"
+    },
+    {
+      "name": "Movie Night Under the Stars",
+      "location": "Intramural Field",
+      "date": "August 10, 2024",
+      "description": "Bring a blanket and join us for a fun movie night! Snacks will be available for purchase. Family and friends welcome."
+    },
+    {
+      "name": "Bookworms Book Club",
+      "location": "Library Meeting Room",
+      "date": "September 5, 2024",
+      "description": "Calling all book lovers! Join us for the first meeting of the Bookworms Book Club. Discuss your favorite books, discover new reads, and enjoy some light refreshments."
+    },
+    {
+      "name": "Gaming Tournament Extravaganza",
+      "location": "Student Center Game Room",
+      "date": "October 20, 2024",
+      "description": "Compete in an epic gaming tournament with fellow students! Prizes for the winners and snacks for all participants. Bring your A-game and let the gaming fun begin!"
+    },
+    {
+      "name": "Artistic Expression Workshop",
+      "location": "Fine Arts Studio",
+      "date": "November 12, 2024",
+      "description": "Unleash your creativity in this hands-on artistic expression workshop. No experience required! Join us for a day of fun, experimentation, and the joy of creating art together."
+    },
+    {
+      "name": "Fitness Fiesta",
+      "location": "Campus Gym",
+      "date": "January 25, 2025",
+      "description": "Kickstart the new year with a Fitness Fiesta! Join us for a day of energetic workouts, wellness tips, and healthy snacks. Whether you're a fitness enthusiast or a beginner, there's something for everyone!"
+    },
+    {
+      "name": "Culinary Delights Showcase",
+      "location": "Culinary Arts Lab",
+      "date": "March 8, 2025",
+      "description": "Indulge your taste buds in a Culinary Delights Showcase! Experience a variety of mouthwatering dishes prepared by our talented culinary arts students. A feast for foodies and a celebration of culinary excellence."
+    }
+  ]
+}
