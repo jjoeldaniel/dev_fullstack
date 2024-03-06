@@ -14,7 +14,7 @@
   ```bash
   python3 -m venv venv
   source venv/bin/activate # this can differ depending on your shell
-  pip install requirements.txt
+  pip install -r requirements.txt
   ```
 
 - Modify the code as you see fit!
